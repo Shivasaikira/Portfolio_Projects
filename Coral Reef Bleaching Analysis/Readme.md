@@ -33,6 +33,7 @@ Coral reef ecosystems are under threat due to increased oceanic stress, leading 
 - The **Indian Ocean** has the highest risk index, while the **Pacific Ocean** contributes the largest share of global stress scores.  
 
 This analysis provides actionable insights for stakeholders, emphasizing risk mitigation, environmental stress monitoring, and regional interventions.
+![CORALFINAL](https://github.com/user-attachments/assets/d7fd52c2-b2e6-4603-af71-78f3ff5d9ccf)
 
 ---
 
