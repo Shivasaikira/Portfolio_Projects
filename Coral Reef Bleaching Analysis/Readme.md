@@ -4,25 +4,23 @@
 ---
 
 ## 📚 Table of Contents  
-1. [Executive Summary](#executive-summary)  
-2. [Data Analysis Workflow](#data-analysis-workflow)  
+1. [Problem Statement](#problem-statement)  
+2. [Executive Summary](#executive-summary)  
+3. [Data Analysis Workflow](#data-analysis-workflow)  
    - [Data Preprocessing](#data-preprocessing)  
    - [Power BI Utilization](#power-bi-utilization)  
-3. [Key Insights](#key-insights)  
-   - [Global Bleaching Severity Distribution](#global-bleaching-severity-distribution)  
-   - [Regional Risk Trends](#regional-risk-trends)  
-   - [Seasonal Bleaching Trends](#seasonal-bleaching-trends)  
-   - [Environmental Stress Factors](#environmental-stress-factors)  
-   - [Comparative Stress Scores by Oceans](#comparative-stress-scores-by-oceans)  
-   - [Temporal Trends](#temporal-trends)  
-4. [Recommendations for Stakeholders](#recommendations-for-stakeholders)  
-   - [Conservation Efforts](#strengthen-conservation-efforts-in-high-risk-regions)  
-   - [Monitoring Stressors](#monitor-and-mitigate-environmental-stressors)  
-   - [Seasonal Preparedness](#seasonal-preparedness-programs)  
-   - [Collaborative Efforts](#collaborate-with-international-organizations)  
-   - [Technology Integration](#leverage-technology-and-ai-for-monitoring)  
-   - [Public Awareness](#public-awareness-campaigns)  
-5. [Conclusion](#conclusion)  
+4. [Key Insights](#key-insights)  
+5. [Recommendations for Stakeholders](#recommendations-for-stakeholders)  
+6. [Conclusion](#conclusion)
+
+---
+
+## 🌍 Problem Statement  
+Coral reefs are one of the most vital marine ecosystems, supporting biodiversity, tourism, and fisheries while protecting coastal regions from erosion. However, coral reefs face unprecedented threats due to coral bleaching events caused by rising sea temperatures, pollution, and ocean acidification.  
+
+This report aims to provide actionable insights into coral reef bleaching patterns and their drivers to help stakeholders mitigate the risks and safeguard these ecosystems.
+
+
 
 ---
 
@@ -40,7 +38,7 @@ This analysis provides actionable insights for stakeholders, emphasizing risk mi
 ## 🔍 Data Analysis Workflow  
 
 ### Data Preprocessing  
-- **Duplicates Removal**: Ensured data integrity by eliminating duplicate entries.  
+- **Duplicates Removal**: Ensured data integrity by eliminating duplicate entries and also deleting columns which were not needed for analysis.  
 - **Column Selection**: Retained only critical columns such as `Percent_Bleaching`, `Temperature_Kelvin`, `SSTA`, `Turbidity`, and `Windspeed`.  
 - **New Measures**: Calculated metrics such as **Risk Index** (correlating stressors and severity) and **Average Environmental Stress Score**.
 
@@ -111,4 +109,10 @@ This analysis provides actionable insights for stakeholders, emphasizing risk mi
 This analysis highlights the urgency of data-driven approaches to mitigate coral reef bleaching. By addressing critical stressors and prioritizing high-risk regions, stakeholders can protect marine biodiversity and support coastal communities.  
 
 Together, we can safeguard coral reefs for future generations.
+
+
+---
+
+
+
 
