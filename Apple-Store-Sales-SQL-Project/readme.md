@@ -271,6 +271,5 @@ GROUP BY 1
 ## Conclusion
 This project demonstrates advanced SQL skills through practical business analysis of Apple Store data. By addressing real-world business questions, the insights derived can help Apple optimize its store operations, product performance, and warranty services on a global scale.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
