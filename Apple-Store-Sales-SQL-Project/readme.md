@@ -72,10 +72,6 @@ The database consists of the following five main tables:
 - **Period Covered**: Data spans multiple years, enabling long-term trend analysis.
 - **Geographical Coverage**: Sales data from Apple stores worldwide.
 
-## Project Highlights
-- **Visualization Ready**: The analysis results are formatted for easy integration with data visualization tools like Tableau or Power BI.
-- **Efficiency**: Queries are optimized using indexes and partitioning techniques for faster processing.
-
 ## Data Analysis & Findings
 
 The following SQL queries were developed to answer specific business questions:
