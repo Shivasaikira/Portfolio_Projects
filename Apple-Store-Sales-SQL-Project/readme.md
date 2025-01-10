@@ -91,6 +91,8 @@ FROM
 GROUP BY s.store_id , st.store_name
 ORDER BY total_sales DESC;
 ```
+**Answer:**
+`![image](Apple-Store-Sales-SQL-Project/Output/Picture1.png)`
 
 2.  **How many stores have never had a warranty claim filed against any of their products?**:
  ```sql
