@@ -1,15 +1,8 @@
 # Apple Store Analysis Project
 
 ## Overview
-The Apple Store Analysis project involves analyzing Apple Store sales, product performance, and warranty claims data to derive actionable business insights. This project explores trends, correlations, and key metrics to address business questions related to store performance, product sales, and warranty trends globally. The analysis uses SQL to extract meaningful insights from over 1 million rows of data across multiple years.
+The Apple Store Analysis project involves analyzing Apple Store sales, product performance, and warranty claims data to derive actionable business insights. This project showcases advanced SQL querying techniques through the analysis of over 1 million rows of Apple retail sales data. The dataset includes detailed information about products, store performance, sales transactions, and warranty claims from Apple retail locations worldwide. The project was completed using SQL to answer a series of business questions by solving complex queries. These queries aim to extract valuable insights, such as identifying top-performing products and stores, uncovering seasonal sales trends, and analyzing the relationship between product pricing and warranty claims. The goal is to demonstrate proficiency in crafting sophisticated SQL queries to derive actionable insights from large-scale datasets and gain a deeper understanding of retail business operations. 
 
-## Objectives
-The key objectives of this project are to:
-1. **Identify top-performing stores and products**.
-2. **Analyze warranty claims and their correlation with product pricing**.
-3. **Uncover seasonal trends and best-selling periods**.
-4. **Highlight areas for improvement in sales and warranty services**.
-5. **Provide actionable insights for targeted campaigns and optimizations**.
 
 ## Database Schema
 
