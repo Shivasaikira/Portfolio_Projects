@@ -2,6 +2,9 @@
 
 ## Overview
 The Apple Store Analysis project involves analyzing Apple Store sales, product performance, and warranty claims data to derive actionable business insights. This project showcases advanced SQL querying techniques through the analysis of over 1 million rows of Apple retail sales data. The dataset includes detailed information about products, store performance, sales transactions, and warranty claims from Apple retail locations worldwide. The project was completed using SQL to answer a series of business questions by solving complex queries. These queries aim to extract valuable insights, such as identifying top-performing products and stores, uncovering seasonal sales trends, and analyzing the relationship between product pricing and warranty claims. The goal is to demonstrate proficiency in crafting sophisticated SQL queries to derive actionable insights from large-scale datasets and gain a deeper understanding of retail business operations. 
+## Entity Relationship Diagram (ERD)
+
+![ERD](https://github.com/najirh/Apple-Retail-Sales-SQL-Project---Analyzing-Millions-of-Sales-Rows/blob/main/erd.png)
 
 
 ## Database Schema
@@ -70,7 +73,6 @@ The database consists of the following five main tables:
 - **Geographical Coverage**: Sales data from Apple stores worldwide.
 
 ## Project Highlights
-- **Predictive Analysis**: Leveraging historical data to forecast future trends.
 - **Visualization Ready**: The analysis results are formatted for easy integration with data visualization tools like Tableau or Power BI.
 - **Efficiency**: Queries are optimized using indexes and partitioning techniques for faster processing.
 
