@@ -76,7 +76,7 @@ The database consists of the following five main tables:
 - **Visualization Ready**: The analysis results are formatted for easy integration with data visualization tools like Tableau or Power BI.
 - **Efficiency**: Queries are optimized using indexes and partitioning techniques for faster processing.
 
-### 3. Data Analysis & Findings
+## Data Analysis & Findings
 
 The following SQL queries were developed to answer specific business questions:
 
@@ -92,7 +92,9 @@ GROUP BY s.store_id , st.store_name
 ORDER BY total_sales DESC;
 ```
 **Answer:**
-`![image](Apple-Store-Sales-SQL-Project/Output/Picture1.png)`
+
+![pic](Output/Picture1.png)
+***
 
 2.  **How many stores have never had a warranty claim filed against any of their products?**:
  ```sql
@@ -104,6 +106,10 @@ WHERE store_id NOT IN ( SELECT DISTINCT store_id
 	ON s.sale_id = w.sale_id
 	);
 ```
+**Answer:**
+
+![pic](Output/Picture2.png)
+***
 3. **Which store had the highest total units sold in the last year?**
  ```sql
 SELECT 
@@ -117,6 +123,10 @@ GROUP BY 1 , 2
 ORDER BY 3 DESC
 LIMIT 1;
 ```
+**Answer:**
+
+![pic](Output/Picture3.png)
+***
 4. **Count the number of unique products sold in the last year.**
  ```sql
 SELECT 
@@ -124,6 +134,10 @@ SELECT
 FROM sales
 WHERE sale_date >= DATE_SUB(NOW(), INTERVAL 1 YEAR);
 ```
+**Answer:**
+
+![pic](Output/Picture4.png)
+***
 5. **Identify each store and best-selling day based on highest quantity sold.**
  ```sql
 SELECT 
@@ -134,6 +148,10 @@ FROM sales
 GROUP BY store_id , sale_date
 ORDER BY highest_qty_sold DESC;
 ```
+**Answer:**
+
+![pic](Output/Picture5.png)
+***
 6. **Identify the least-selling product of each country for each year based on total units sold.**
  ```sql
 WITH product_rank AS (
@@ -154,6 +172,10 @@ SELECT
 FROM product_rank
 WHERE rnk = 1;
 ```
+**Answer:**
+
+![pic](Output/Picture6.png)
+***
 7. **How many warranty claims have been filed for products launched in the last two years?**
  ```sql
 SELECT 
@@ -169,7 +191,10 @@ ON p.product_id = s.product_id
 WHERE p.launch_date >= DATE_SUB(NOW(),INTERVAL 2 YEAR)
 GROUP BY 1
 HAVING COUNT(w.claim_id) > 0;
-```
+```**Answer:**
+
+![pic](Output/Picture7.png)
+***
 8. **List the months in the last 3 years where sales exceeded 5000 units from the USA.**
  ```sql
  SELECT 
@@ -186,6 +211,10 @@ WHERE
 GROUP BY 1
 HAVING SUM(s.quantity) > 5000;
 ```
+**Answer:**
+
+![pic](Output/Picture8.png)
+***
 9. **Write SQL query to calculate the monthly running total of sales for each store over the past four years and compare the trends across this period.**
  ```sql
 WITH monthly_sales
@@ -210,6 +239,10 @@ SELECT
 	SUM(total_revenue) OVER(PARTITION BY store_id ORDER BY year, month) as running_total
 FROM monthly_sales;
 ```
+**Answer:**
+
+![pic](Output/Picture9.png)
+***
 10. **What is the correlation between product price and warranty claims for products sold in the last five years?**
  ```sql
 SELECT 
@@ -229,6 +262,10 @@ ON p.product_id = s.product_id
 WHERE claim_date >=  DATE_SUB(NOW(),INTERVAL 5 YEAR)
 GROUP BY 1
 ```
+**Answer:**
+
+![pic](Output/Picture10.png)
+***
 
 
 ## Conclusion
