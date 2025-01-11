@@ -263,6 +263,48 @@ GROUP BY 1
 ![pic](Output/Picture10.png)
 ***
 
+## Findings & Reports
+
+### Findings
+
+1. **Store Performance:**
+   - **Total Units Sold:** Some stores consistently outperform others in terms of total sales, with clear leaders emerging across the dataset.
+   - **Stores with No Warranty Claims:** A small subset of stores has managed to avoid any warranty claims, possibly indicating superior product quality or fewer sales.
+   - **Highest Units Sold in the Last Year:** Apple Ankara store achieved the highest sales volume, likely due to its location, product selection, or customer base.
+
+2. **Product Performance:**
+    - **Least-Selling Products:** Certain products consistently underperform, often tied to specific regions or customer preferences.
+   - **Product Price vs. Warranty Claims:** Expensive products tend to have a slightly higher rate of warranty claims, indicating a potential area for improvement in high-end offerings.
+
+3. **Sales Trends:**
+   - **Monthly Running Total:** Sales trends over four years reveal consistent growth for some stores, while others show seasonal variability.
+   - **High-Sales Months (USA):** Specific months have consistently exceeded sales thresholds in the USA, pointing to seasonal promotions or market conditions.
+
+4. **Warranty Insights:**
+   - **Claims for Recently Launched Products:** Products launched in the last two years have a moderate volume of warranty claims, which can inform product development and quality assurance teams.
+
+5. **Best-Selling Days:**
+   - Each store has identifiable days of peak performance, which can inform marketing strategies to replicate or enhance those conditions.
+
+### Reports
+
+1. **Sales Summary:**
+   - Total Sales by Store: A detailed breakdown of units sold across all stores, identifying top-performing locations.
+   - Unique Products Sold: The total count of distinct products sold over time, showcasing product variety.
+
+2. **Trend Analysis:**
+   - Monthly Sales Trends: A report on the running total of sales for each store over the past four years.
+   - Peak Sales Months (USA): Specific months in which sales exceeded 5000 units, highlighting key drivers of success
+
+3. **Product Performance:**
+   - Best-Selling Products: Items that contribute most significantly to overall sales by region.
+   - Least-Selling Products: Products that underperform annually, providing opportunities for discontinuation or repositioning.
+
+4. **Store-Specific Analysis:**
+   - Best-Selling Days: A report highlighting the best-performing days for each store, useful for promotional planning.
+   - Correlation Analysis: Insights into the relationship between product pricing and warranty claims, providing a strategy to optimize pricing models.
+
+---
 
 ## Conclusion
 This project demonstrates advanced SQL skills through practical business analysis of Apple Store data. By addressing real-world business questions, the insights derived can help Apple optimize its store operations, product performance, and warranty services on a global scale.
