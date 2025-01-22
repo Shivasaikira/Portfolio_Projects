@@ -21,6 +21,11 @@ This project focuses on the alarming global issue of coral reef bleaching. By an
 ### Key Highlights:
 - Data analysis on environmental impact
 - Visual representation of results
+## Coral Reef Analysis Project
+
+You can explore the **Coral Reef Analysis Project** in more detail by visiting the folder below:
+
+- [Coral Reef Analysis Project Folder](Coral%20Reef%20Bleaching%20Analysis%20project/)
 
 ---
 
