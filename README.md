@@ -12,6 +12,9 @@ In this project, I leveraged SQL to analyze and extract valuable insights from A
 - Trend identification and performance metrics
 - Data visualization for easy interpretation
 
+You can explore the **** in more detail by visiting the folder below:
+- [Apple Store Analysis](Apple-Store-Sales-SQL-Project)
+
 ---
 
 ## 2. Coral Reef Bleaching Analysis
