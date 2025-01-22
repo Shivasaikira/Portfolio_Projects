@@ -11,7 +11,7 @@
 ---
 
 ## 🌍 Problem Statement
-Analyzing the digital habits of tuition students and their correlation with academic performance. The aim is to provide actionable insights to improve productivity and engagement while maintaining a healthy balance between screen time and studies.
+Analyzing the digital habits of tuition students and their correlation with academic performance.Tuition students were observed spending significant time on screens, raising concerns about its potential impact on their academic performance. To investigate this, an analysis was conducted on data collected from 12 students over 4 weekends in November 2024. The goal was to understand the correlation between their screen time, app usage patterns, and academic outcomes, and to provide actionable insights for better productivity and engagement. The aim is to provide actionable insights to improve productivity and engagement while maintaining a healthy balance between screen time and studies.
 
 ---
 
@@ -23,7 +23,7 @@ This project focuses on analyzing data collected from students regarding their w
 
 ## 🔍 Data Analysis Workflow
 1. **Data Preprocessing:**
-   - Imported the dataset into Excel.
+   - During the data collection phase, all values for the 12 students were manually entered into separate columns in an Excel sheet. This dataset includes the relevant values for each student, which were then prepared for preprocessing
    - Cleaned and formatted the data for consistency.
    - Ensured dates were within November 2024 weekends.
 
@@ -31,7 +31,7 @@ This project focuses on analyzing data collected from students regarding their w
    - Created Pivot Tables for key measures:
      - **Average Screen Time by Class**: Used "Average" function on screen time for each class.
      - **Engagement Rate by Class**: Calculated using the formula: 
-       \[ \text{Engagement Rate} = \frac{\text{(Unlocks + Notifications)}}{\text{Screen Time}} \times 100 \]
+       Engagement Rate =(Unlocks + Notifications)/(Screen Time) * 100 
      - **Top App Category**: Counted categories to identify the most used app type.
 
 3. **Key Calculations:**
