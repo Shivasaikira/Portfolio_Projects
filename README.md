@@ -12,7 +12,7 @@ In this project, I leveraged SQL to analyze and extract valuable insights from A
 - Trend identification and performance metrics
 - Data visualization for easy interpretation
 
-You can explore the **** in more detail by visiting the folder below:
+You can explore the **Apple Store Sales Analysis** in more detail by visiting the folder below:
 - [Apple Store Analysis](Apple-Store-Sales-SQL-Project)
 
 ---
@@ -39,7 +39,8 @@ This project explores the correlation between screen time and academic performan
 - Data collection 
 - Correlation between screen time and academic performance
 - Actionable insights for academic improvements
-
+You can explore the **Student Screen Time and Academic Insights** in more detail by visiting the folder below:
+- [Student Screen Time Analysis](Student%20Screen%20Time%20Analysis)
 ---
 
 These projects are designed to demonstrate my analytical skills, problem-solving abilities, and passion for extracting meaningful insights from data. I hope you find them inspiring and informative!
