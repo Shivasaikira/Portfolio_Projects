@@ -1,4 +1,4 @@
-# Coral Reef Bleaching Analysis: Insights for Stakeholders  
+# Coral Reef Bleaching Analysis
 **Addressing Risk, Severity, and Environmental Impact**
 
 ---
