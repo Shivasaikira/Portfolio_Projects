@@ -71,8 +71,69 @@ The database consists of the following five main tables:
 - **Size**: Over 1 million rows of sales data.
 - **Period Covered**: Data spans multiple years, enabling long-term trend analysis.
 - **Geographical Coverage**: Sales data from Apple stores worldwide.
+  
+ ## Project Structure
 
-## Data Analysis & Findings
+### 1. Database Setup
+
+- **Database Creation**: The project starts by creating a database named `apple_store`.
+ ```sql
+create database apple_store;
+use apple_store;
+```
+  
+- **Table Creation**:In apple_store database five tables were created which are: stores, category, products, sales, and warranty. Each table was designed to store specific information related to the retail sales process, ensuring efficient data organization and easy querying. These tables are interconnected, allowing for comprehensive analysis of sales performance, product details, store locations, and warranty information.
+ ```sql
+CREATE TABLE stores(
+store_id VARCHAR(5) PRIMARY KEY,
+store_name VARCHAR(30),
+city      VARCHAR(25),
+country VARCHAR(25)
+);
+
+CREATE TABLE category
+(category_id VARCHAR(10) PRIMARY KEY,
+category_name VARCHAR(20)
+);
+
+CREATE TABLE products
+(
+product_id	VARCHAR(10) PRIMARY KEY,
+product_name	VARCHAR(35),
+category_id	VARCHAR(10),
+launch_date	date,
+price FLOAT,
+CONSTRAINT fk_category FOREIGN KEY (category_id) REFERENCES category(category_id)
+);
+
+CREATE TABLE sales
+(
+sale_id	VARCHAR(15) PRIMARY KEY,
+sale_date	DATE,
+store_id	VARCHAR(10), -- this fk
+product_id	VARCHAR(10), -- this fk
+quantity INT,
+CONSTRAINT fk_store FOREIGN KEY (store_id) REFERENCES stores(store_id),
+CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES products(product_id)
+);
+
+CREATE TABLE warranty
+(
+claim_id VARCHAR(10) PRIMARY KEY,	
+claim_date	date,
+sale_id	VARCHAR(15),
+repair_status VARCHAR(15),
+CONSTRAINT fk_orders FOREIGN KEY (sale_id) REFERENCES sales(sale_id)
+);
+```
+### 2. Indexing for Performance Improvement
+To enhance the performance of queries and improve data retrieval efficiency, indexing was applied to key columns in the apple_store database. Indexes were created on frequently queried columns such as product IDs, store locations, and sales dates. This optimization significantly reduces query execution times, especially for large datasets, and ensures faster access to critical information.
+```sql
+CREATE INDEX sales_product_id ON sales(product_id);
+CREATE INDEX sales_store_id ON sales(store_id);
+CREATE INDEX sales_sale_date ON sales(sale_date);
+```
+### 3.Data Analysis & Findings
 
 The following SQL queries were developed to answer specific business questions:
 
