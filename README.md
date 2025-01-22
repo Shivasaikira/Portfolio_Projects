@@ -25,7 +25,7 @@ This project focuses on the alarming global issue of coral reef bleaching. By an
 
 You can explore the **Coral Reef Analysis Project** in more detail by visiting the folder below:
 
-- [Coral Reef Bleaching Analysis Folder](Coral%20Reef%20Bleaching%20Analysis%20/)
+- [Coral Reef Bleaching Analysis](Coral%20Reef%20Bleaching%20Analysis)
 
 ---
 
