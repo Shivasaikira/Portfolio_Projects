@@ -13,7 +13,7 @@ This project analyzes Instagram user interactions and engagement using SQL queri
 - **Database**: MySQL
 - **SQL Tool**: MySQL Workbench
 - **Visualization**: Canva (for reports & presentations)
-- **Version Control**: Git & GitHub
+
 
 ## **Project Structure**
 ```
