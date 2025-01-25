@@ -48,6 +48,7 @@ Instagram-User-Analytics/
 - **Bot Detection**: Identify users who liked every single photo.
 
 ## **Results & Insights**
+
 This project provides valuable insights into user behavior, engagement, and platform trends, helping Instagram optimize its features and improve user experience.
 
 
