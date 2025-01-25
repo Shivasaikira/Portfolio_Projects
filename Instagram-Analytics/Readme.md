@@ -15,26 +15,6 @@ This project analyzes Instagram user interactions and engagement using SQL queri
 - **Visualization**: Canva (for reports & presentations)
 
 
-## **Project Structure**
-```
-Instagram-User-Analytics/
-│── README.md
-│── sql_queries/
-│   ├── marketing_analysis.sql
-│   ├── investor_metrics.sql
-│── reports/
-│   ├── marketing_findings.pdf
-│   ├── investor_findings.pdf
-│── images/
-│   ├── query_results_screenshots.png
-│── docs/
-│   ├── project_documentation.pdf
-│── database/
-│   ├── instagram_schema.sql
-│── scripts/
-│   ├── data_analysis_script.sql
-```
-
 ## **Key SQL Tasks**
 ### **Marketing Analysis**
 - **Loyal User Reward**: Find the five oldest users.
@@ -51,6 +31,8 @@ Instagram-User-Analytics/
 
 This project provides valuable insights into user behavior, engagement, and platform trends, helping Instagram optimize its features and improve user experience.
 
+Feel free to explore the SQL queries and results in the project files. 📁
 
+🚀 Let's make Instagram even more amazing! 📸📈🤖
 
 
