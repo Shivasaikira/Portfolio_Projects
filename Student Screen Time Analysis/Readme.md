@@ -18,7 +18,7 @@ Analyzing the digital habits of tuition students and their correlation with acad
 ## 📝 Executive Summary
 This project focuses on analyzing data collected from students regarding their weekend app usage, categorized by various parameters such as screen time, unlocks, notifications, and academic marks in math and science. The dashboard visually represents key performance indicators (KPIs) and trends, enabling stakeholders to identify areas of improvement and actionable strategies.
 
-![ERD](https://github.com/Shivasaikira/Portfolio_Projects/blob/main/Student%20Screen%20Time%20Analysis/student%20dashboard.png)
+![ERD](https://github.com/Shivasaikira/Portfolio_Projects/blob/main/Student%20Screen%20Time%20Analysis/student-dashboard.png)
 ---
 
 ## 🔍 Data Analysis Workflow
