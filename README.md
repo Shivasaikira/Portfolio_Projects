@@ -21,7 +21,7 @@ Below are my **end-to-end Machine Learning projects**, maintained in a dedicated
 - Business insights suggest **20–30% potential increase in repeat purchases**
 
 🔗 **View Full Project:**  
-👉 https://github.com/<your-username>/machine-learning-projects/tree/main/Customer-Segmentation-KMeans
+👉 (https://github.com/Shivasaikira/machine-learning-projects/tree/main/Customer-Segmentation-KMeans)
 
 ---
 
