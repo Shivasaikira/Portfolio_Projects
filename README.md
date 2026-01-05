@@ -36,6 +36,7 @@ Below are my **end-to-end Machine Learning projects**, maintained in a dedicated
 
 🔗 **View Full Project:**  
 👉 https://github.com/Shivasaikira/machine-learning-projects/tree/main/Amazon-Product-Return-Prediction
+
 ---
 
 ## 📊 Data Analytics & SQL Projects
