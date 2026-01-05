@@ -1,49 +1,97 @@
+# Welcome to My Portfolio Projects 👋
 
-# Welcome to My Portfolio Projects!
+Hi there! Welcome to my portfolio, where I showcase my journey as a **Data Analyst with a strong focus on Machine Learning and business-driven analytics**.  
+This repository highlights selected projects that demonstrate my ability to analyze data, build predictive models, and extract actionable insights to solve real-world problems.
 
-Hi there! 👋 Welcome to my portfolio, where I showcase my journey as a Data Analyst and the exciting projects I've worked on.  Through these projects, I aim to demonstrate my skills in data analysis, visualization, and problem-solving, blending my love for numbers and insights to create meaningful solutions. Below are the key projects I’ve worked on, each offering unique insights into different fields.
+---
 
-## 1. Apple Retail Sales SQL Project
+## 🤖 Featured Machine Learning Projects
 
-In this project, I leveraged SQL to analyze and extract valuable insights from Apple’s retail sales data. Using advanced querying techniques, I was able to identify trends, patterns, and key metrics that helped to inform business decisions. This project highlights my ability to work with large datasets, optimize queries, and provide actionable recommendations.
+Below are my **end-to-end Machine Learning projects**, maintained in a dedicated repository to ensure clean structure and technical depth.
 
-### Key Highlights:
-- SQL queries for data extraction and analysis
+---
+
+### 🔹 1. Customer Segmentation using K-Means
+**Objective:** Identify high-value customers from large-scale retail transaction data to enable targeted marketing and retention strategies.
+
+**Key Highlights:**
+- Analyzed **400K+ retail transactions**
+- Applied **K-Means clustering** to segment customers
+- Identified that **22% of customers generate ~80% of revenue**
+- Business insights suggest **20–30% potential increase in repeat purchases**
+
+🔗 **View Full Project:**  
+👉 https://github.com/<your-username>/machine-learning-projects/tree/main/Customer-Segmentation-KMeans
+
+---
+
+### 🔹 2. Amazon Product Return Prediction (Machine Learning Classification)
+**Objective:** Predict whether an e-commerce order will be returned to reduce logistics costs and improve customer experience.
+
+**Key Highlights:**
+- Built a **Random Forest classifier** on **10,000+ orders**
+- Achieved **95% accuracy** and **F1-score of 0.95** (5-fold cross-validation)
+- Identified **review rating (39%)** as the top predictor
+- Business insights indicate **15–20% reduction in return rates**
+
+🔗 **View Full Project:**  
+👉 https://github.com/<your-username>/machine-learning-projects/tree/main/Amazon-Product-Return-Prediction
+
+---
+
+## 📊 Data Analytics & SQL Projects
+
+In addition to Machine Learning, the following projects demonstrate my strength in **SQL, exploratory data analysis, and visualization**.
+
+---
+
+### 🔹 3. Apple Retail Sales SQL Project
+In this project, I leveraged **SQL** to analyze Apple’s retail sales data and extract meaningful business insights using advanced querying techniques.
+
+**Key Highlights:**
+- Complex SQL queries for data extraction and analysis
 - Trend identification and performance metrics
-- Data visualization for easy interpretation
+- Business-focused insights from transactional data
 
-You can explore the **Apple Store Sales Analysis** in more detail by visiting the folder below:
-- [Apple Store Analysis](Apple-Store-Sales-SQL-Project)
-
----
-
-## 2. Coral Reef Bleaching Analysis
-
-This project focuses on the alarming global issue of coral reef bleaching. By analyzing environmental data, I investigated the factors contributing to coral bleaching and its impact on marine biodiversity. The project allowed me to apply data visualization techniques to present clear findings, shedding light on critical environmental challenges.
-
-### Key Highlights:
-- Data analysis on environmental impact
-- Visual representation of results
-
-You can explore the **Coral Reef Bleaching Analysis Project** in more detail by visiting the folder below:
-
-- [Coral Reef Bleaching Analysis](Coral%20Reef%20Bleaching%20Analysis)
+📂 **Project Folder:**  
+👉 [Apple Store Analysis](Apple-Store-Sales-SQL-Project)
 
 ---
 
-## 3. Student Screen Time & Academic Insights
+### 🔹 4. Coral Reef Bleaching Analysis
+This project focuses on the global environmental challenge of coral reef bleaching. I analyzed environmental data to understand key contributing factors and their impact on marine ecosystems.
 
-This project explores the correlation between screen time and academic performance in students. By analyzing the student screen time data, I identified patterns and relationships between study habits, screen usage, and grades. The insights from this analysis provide valuable information for improving student well-being and academic strategies.
+**Key Highlights:**
+- Environmental data analysis
+- Clear visual storytelling using data visualization
+- Insight-driven conclusions on climate impact
 
-### Key Highlights:
-- Data collection 
-- Correlation between screen time and academic performance
-- Actionable insights for academic improvements
-You can explore the **Student Screen Time and Academic Insights** in more detail by visiting the folder below:
-- [Student Screen Time Analysis](Student%20Screen%20Time%20Analysis)
+📂 **Project Folder:**  
+👉 [Coral Reef Bleaching Analysis](Coral%20Reef%20Bleaching%20Analysis)
+
 ---
 
-These projects are designed to demonstrate my analytical skills, problem-solving abilities, and passion for extracting meaningful insights from data. I hope you find them inspiring and informative!
+### 🔹 5. Student Screen Time & Academic Insights
+This project explores the relationship between student screen time and academic performance, uncovering behavioral patterns and correlations.
+
+**Key Highlights:**
+- Data collection and exploratory analysis
+- Correlation between screen time and academic outcomes
+- Actionable insights for improving student performance and well-being
+
+📂 **Project Folder:**  
+👉 [Student Screen Time Analysis](Student%20Screen%20Time%20Analysis)
+
+---
+
+## 🚀 Closing Note
+These projects collectively reflect my ability to:
+- Solve business problems using data
+- Apply Machine Learning thoughtfully
+- Communicate insights clearly to both technical and non-technical audiences
+
+Thank you for taking the time to explore my work!
+
 
 Feel free to explore each project for a deeper understanding of my work. 
 
