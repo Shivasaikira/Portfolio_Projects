@@ -21,7 +21,7 @@ Below are my **end-to-end Machine Learning projects**, maintained in a dedicated
 - Business insights suggest **20–30% potential increase in repeat purchases**
 
 🔗 **View Full Project:**  
-👉 (https://github.com/Shivasaikira/machine-learning-projects/tree/main/Customer-Segmentation-KMeans)
+👉 https://github.com/Shivasaikira/machine-learning-projects/tree/main/Customer-Segmentation-KMeans
 
 ---
 
@@ -35,8 +35,7 @@ Below are my **end-to-end Machine Learning projects**, maintained in a dedicated
 - Business insights indicate **15–20% reduction in return rates**
 
 🔗 **View Full Project:**  
-👉 https://github.com/<your-username>/machine-learning-projects/tree/main/Amazon-Product-Return-Prediction
-
+👉 https://github.com/Shivasaikira/machine-learning-projects/tree/main/Amazon-Product-Return-Prediction
 ---
 
 ## 📊 Data Analytics & SQL Projects
